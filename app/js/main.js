@@ -5,6 +5,7 @@ console.log(1);
     color();
 });*/
 
-require(['jquery'], function($){
-    console.log($);
+require(['t/world'], function(w){
+    console.log('hhhhhhhhhhhhh');
 });
+

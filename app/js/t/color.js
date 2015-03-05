@@ -1,10 +1,6 @@
-define(['./dog'], function(dog){
-    
-    console.log('color init');
-
-    dog();
-
-    return function(){
-        console.log('color excute');
+define(function(){
+    console.log('color.js');
+    return {
+        color: 'red'
     }
 });

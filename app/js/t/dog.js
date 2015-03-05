@@ -1,6 +1,8 @@
-define(function(){
-    console.log('init i am dog');
-    return function(){
-        console.log('excute i am a dog');
+
+define(['t/color'], function(color){
+    console.log('dog.js-' + color.color);
+    return {
+        color: color.color,
+        height: '100'
     }
 });
