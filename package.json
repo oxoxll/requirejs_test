@@ -1,0 +1,23 @@
+{
+  "name": "requirejs_test",
+  "version": "1.0.0",
+  "description": "requirejs_test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oxoxll/requirejs_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oxoxll/requirejs_test/issues"
+  },
+  "homepage": "https://github.com/oxoxll/requirejs_test",
+  "dependencies": {
+    "http-server": "^0.7.5"
+  }
+}
